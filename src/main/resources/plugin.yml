@@ -1,0 +1,11 @@
+name: Practice
+version: '${version}'
+main: me.intier.practice.Practice
+api-version: '1.20'
+commands:
+  selfmodify:
+    description: 가상 체력을 조정합니다.
+    usage: /selfmodify <대상> <수치>
+  menu:
+    description: Opens the menu.
+    usage: /menu
